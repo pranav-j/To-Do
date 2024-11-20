@@ -19,7 +19,7 @@ const ListTasks = () => {
 
     return (
         <div className="p-6">
-          <button onClick={() => dispatch(toggleNewTaskForm())} className="flex items-center justify-center gap-2 border rounded-lg px-4 py-2 mb-4 bg-blue-500 text-white hover:bg-blue-600 transition">
+          <button onClick={() => dispatch(toggleNewTaskForm())} className="flex items-center justify-center gap-2 border rounded-lg px-4 py-2 mb-4 border-blue-400 bg-blue-200">
             <span>Add task </span><MdOutlineAddCircleOutline className="mt-[2px]" />
           </button>
           <h1 className="font-semibold mb-4">{filter} tasks</h1>
