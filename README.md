@@ -12,9 +12,14 @@ To deploy this project, make sure toinstall Node.js, then clone the repo
   git clone https://github.com/pranav-j/To-Do.git
 ```
 
+Then install the dependencies
+
 ```bash
   npm install
 ```
+
+Then run the App
+
 ```bash
   npm run dev
 ```
